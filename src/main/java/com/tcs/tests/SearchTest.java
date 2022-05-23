@@ -9,13 +9,13 @@ import com.tcs.core.DriverManager;
 public class SearchTest {
 
 	public static void main(String[] args) throws InterruptedException {
-		
+
 		WebDriver driver = DriverManager.getChromeDriver();
 
 		driver.navigate().to("https://www.flipkart.com");
 
 		driver.manage().window().maximize();
-		
+
 		WebElement emailInputBox = driver.findElement(By.cssSelector(
 				"body > div._2Sn47c > div > div > div > div > div._36HLxm.col.col-3-5 > div > form > div:nth-child(1) > input"));
 		emailInputBox.sendKeys("8750024099");
@@ -30,16 +30,23 @@ public class SearchTest {
 		button.click();
 
 		Thread.sleep(3000);
-		
-		WebElement inputElement=driver.findElement(By.cssSelector("input[name=q]"));
+
+		WebElement inputElement = driver.findElement(By.cssSelector("input[name=q]"));
 		inputElement.sendKeys("nike Shoes");
-		
-		WebElement searchElement=driver.findElement(By.cssSelector("button[type=submit]"));
+
+		WebElement searchElement = driver.findElement(By.cssSelector("button[type=submit]"));
 		searchElement.click();
-		
-		
-		WebElement firstone= driver.findElement(By.cssSelector("#container > div > div._36fx1h._6t1WkM._3HqJxg > div._1YokD2._2GoDe3 > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(1)"));
+
+		Thread.sleep(3000);
+
+		WebElement firstone = driver.findElement(By.cssSelector(
+				"#container > div > div._36fx1h._6t1WkM._3HqJxg > div._1YokD2._2GoDe3 > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(1)"));
 		firstone.click();
+		
+		Thread.sleep(1500);
+		
+		WebElement shoesize = driver.findElement(By.cssSelector("'#swatch-4-size'"));
+		shoesize.click();		
 	}
 
 }
