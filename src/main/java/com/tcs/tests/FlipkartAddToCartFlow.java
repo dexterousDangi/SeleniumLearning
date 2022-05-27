@@ -15,7 +15,7 @@ public class FlipkartAddToCartFlow {
 	public static void main(String[] args) throws InterruptedException {
 
 		WebDriver driver = DriverManager.getChromeDriver();
-
+     
 		driver.navigate().to("https://www.flipkart.com");
 
 		driver.manage().window().maximize();
@@ -31,6 +31,7 @@ public class FlipkartAddToCartFlow {
 		Thread.sleep(1000);
 
 		WebElement button = driver.findElement(By.cssSelector("button[type=submit] span"));
+		button.getAttribute("type");
 		button.click();
 
 		Thread.sleep(3000);
