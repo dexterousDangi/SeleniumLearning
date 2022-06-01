@@ -1,0 +1,5 @@
+com\tcs\tests\FlipkartAddToCartFlow.class
+com\tcs\tests\Snippet.class
+com\tcs\tests\SearchTest.class
+com\tcs\core\DriverManager.class
+com\tcs\tests\SearchTestUsingTestNG.class

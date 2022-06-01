@@ -3,6 +3,7 @@ package com.tcs.tests;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 import org.openqa.selenium.By;
@@ -24,18 +25,35 @@ public class SearchTest {
 		}
 		return newraw;
 	}
-public static HashMap<String,String> allSizeAndTheirPrice() throws InterruptedException {
-		
-		HashMap<String, String> mapAllPrice= new HashMap<>();
-		
+
+	public static Map<String, String> allSizeAndTheirPrice() throws InterruptedException {
+
+		HashMap<String, String> mapAllPrice = new HashMap<>();
+
 		String sizeInnerText = "a._1fGeJ5._2UVyXR._31hAvz";
 		String shoepriceSelector = " div._30jeq3._16Jk6d";
-		int shoeInner = driver.findElements(By.cssSelector(sizeInnerText)).size();
-		System.out.println("size avialable: " + shoeInner);
-		for (int i = 0; i < shoeInner; i++) {
+//		driver.findElements(By.cssSelector(sizeInnerText)).forEach(sizeLink -> {
+//			String sizeKey= sizeLink.getAttribute("innerText").trim();
+//			sizeLink.click();
+//			try {
+//				Thread.sleep(2000);
+//			} catch (InterruptedException e) {
+//				e.printStackTrace();
+//			}
+//			String shoePrice = driver.findElement(By.cssSelector(shoepriceSelector)).getText();
+//			mapAllPrice.put(sizeKey, shoePrice);
+//		 }) ;     
+//		
+//		 
+//	return mapAllPrice;
+//	}
+	
+		int sizeList=driver.findElements(By.cssSelector(sizeInnerText)).size();
+		System.out.println("size avialable: " + sizeList);
+		for (int i = 0; i < sizeList; i++) {
 			List<WebElement> element = driver.findElements(By.cssSelector(sizeInnerText));
 			WebElement element2 = element.get(i);
-			String size= element2.getAttribute("innerText");
+			String size = element2.getAttribute("innerText");
 			element2.click();
 			Thread.sleep(3000);
 			WebElement shoeRawPrice = driver.findElement(By.cssSelector(shoepriceSelector));
@@ -51,7 +69,7 @@ public static HashMap<String,String> allSizeAndTheirPrice() throws InterruptedEx
 	static WebDriver driver = null;
 
 	public static void main(String[] args) throws InterruptedException {
-
+		
 		driver = DriverManager.getChromeDriver();
 
 		driver.navigate().to("https://www.flipkart.com");
@@ -94,11 +112,11 @@ public static HashMap<String,String> allSizeAndTheirPrice() throws InterruptedEx
 		// TODO create a method
 		String shoeSizeSelector = "div:nth-child(2) > div._22QfJJ > ul li[id]";
 		List<WebElement> element = driver.findElements(By.cssSelector(shoeSizeSelector));
-		WebElement element2 = element.get(0);
+		WebElement element2 = element.get(3);
 		element2.click();
 		Thread.sleep(3000);
-		
-		allSizeAndTheirPrice();
+
+		System.out.println(allSizeAndTheirPrice());
 
 		WebElement shoeRawPrice = driver.findElement(By.cssSelector(" div._30jeq3._16Jk6d"));
 		String rawPrice = shoeRawPrice.getText();
@@ -107,8 +125,6 @@ public static HashMap<String,String> allSizeAndTheirPrice() throws InterruptedEx
 		Integer price = Integer.parseInt(newraw);
 		System.out.println("price of one pair of shoes: " + price);
 		Thread.sleep(2000);
-
-		
 
 		driver.findElement(By.cssSelector(" ul > li:nth-child(1) > button > svg")).click();
 
@@ -122,11 +138,10 @@ public static HashMap<String,String> allSizeAndTheirPrice() throws InterruptedEx
 		String refinedTotal = refineRawPrice(totalAmount);
 		Integer totalprice = Integer.parseInt(refinedTotal);
 		System.out.println("price of two pair fo shoes: " + totalprice);
-		
-		WebElement placeOrder=driver.findElement(By.cssSelector("button._2KpZ6l._2ObVJD._3AWRsL"));
-		placeOrder.click();
+//
+//		WebElement placeOrder = driver.findElement(By.cssSelector("button._2KpZ6l._2ObVJD._3AWRsL"));
+//		placeOrder.click();
 
 	}
 
-	
 }

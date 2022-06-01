@@ -1,0 +1,12 @@
+package com.tcs.tests;
+
+public class Snippet {
+	public static void main(String[] args) {
+		
+	
+	String str = "$dfkashdf1,21,414.56";
+	          str = str.replaceAll("[^\\d.]", "");
+	System.out.println(str);
+}
+
+}

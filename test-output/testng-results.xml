@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="103392" started-at="2022-06-01T03:46:03 IST" finished-at="2022-06-01T03:47:47 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="103392" started-at="2022-06-01T03:46:03 IST" finished-at="2022-06-01T03:47:47 IST">
+      <class name="com.tcs.tests.SearchTestUsingTestNG">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tcs.tests.SearchTestUsingTestNG@1f7030a6]" name="setup" is-config="true" duration-ms="52023" started-at="2022-06-01T03:46:03 IST" finished-at="2022-06-01T03:46:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="a()[pri:0, instance:com.tcs.tests.SearchTestUsingTestNG@1f7030a6]" name="a" duration-ms="356" started-at="2022-06-01T03:46:55 IST" finished-at="2022-06-01T03:46:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="getMe()[pri:0, instance:com.tcs.tests.SearchTestUsingTestNG@1f7030a6]" name="getMe" is-config="true" duration-ms="2910" started-at="2022-06-01T03:46:56 IST" finished-at="2022-06-01T03:46:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMe -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tcs.tests.SearchTestUsingTestNG@1f7030a6]" name="setup" is-config="true" duration-ms="17212" started-at="2022-06-01T03:46:59 IST" finished-at="2022-06-01T03:47:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="bb()[pri:0, instance:com.tcs.tests.SearchTestUsingTestNG@1f7030a6]" name="bb" duration-ms="24" started-at="2022-06-01T03:47:16 IST" finished-at="2022-06-01T03:47:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bb -->
+        <test-method status="PASS" signature="getMe()[pri:0, instance:com.tcs.tests.SearchTestUsingTestNG@1f7030a6]" name="getMe" is-config="true" duration-ms="2272" started-at="2022-06-01T03:47:16 IST" finished-at="2022-06-01T03:47:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMe -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tcs.tests.SearchTestUsingTestNG@1f7030a6]" name="setup" is-config="true" duration-ms="12447" started-at="2022-06-01T03:47:18 IST" finished-at="2022-06-01T03:47:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testOne()[pri:0, instance:com.tcs.tests.SearchTestUsingTestNG@1f7030a6]" name="testOne" duration-ms="28" started-at="2022-06-01T03:47:31 IST" finished-at="2022-06-01T03:47:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="getMe()[pri:0, instance:com.tcs.tests.SearchTestUsingTestNG@1f7030a6]" name="getMe" is-config="true" duration-ms="750" started-at="2022-06-01T03:47:31 IST" finished-at="2022-06-01T03:47:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMe -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tcs.tests.SearchTestUsingTestNG@1f7030a6]" name="setup" is-config="true" duration-ms="14503" started-at="2022-06-01T03:47:32 IST" finished-at="2022-06-01T03:47:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testTwo()[pri:0, instance:com.tcs.tests.SearchTestUsingTestNG@1f7030a6]" name="testTwo" duration-ms="55" started-at="2022-06-01T03:47:46 IST" finished-at="2022-06-01T03:47:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method status="PASS" signature="getMe()[pri:0, instance:com.tcs.tests.SearchTestUsingTestNG@1f7030a6]" name="getMe" is-config="true" duration-ms="700" started-at="2022-06-01T03:47:46 IST" finished-at="2022-06-01T03:47:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMe -->
+      </class> <!-- com.tcs.tests.SearchTestUsingTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

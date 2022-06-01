@@ -6,7 +6,9 @@
 	<name>selenium-demo</name>
 	<description>learning selenium
   	</description>
-	<properties></properties>
+	<properties>
+	<java.version>1.8</java.version>
+	</properties>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
@@ -14,8 +16,29 @@
 			<artifactId>selenium-java</artifactId>
 			<version>4.1.4</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.0.0</version>
+			<!--<scope>test</scope> -->
+		</dependency>
+
 
 	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.6.0</version>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 
 
 </project>
