@@ -135,7 +135,7 @@ public class SearchTest {
 		Thread.sleep(3000);
 		String totalAmount = driver.findElement(By.cssSelector(" div._3LxTgx > div > span > div > div > span"))
 				.getText();
-		String refinedTotal = refineRawPrice(totalAmount);
+		String refinedTotal = refineRawPrice(totalAmount); 
 		Integer totalprice = Integer.parseInt(refinedTotal);
 		System.out.println("price of two pair fo shoes: " + totalprice);
 //

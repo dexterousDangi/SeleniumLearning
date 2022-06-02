@@ -1,61 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="103392" started-at="2022-06-01T03:46:03 IST" finished-at="2022-06-01T03:47:47 IST">
+  <suite name="demoXmlfile1" duration-ms="154" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="103392" started-at="2022-06-01T03:46:03 IST" finished-at="2022-06-01T03:47:47 IST">
-      <class name="com.tcs.tests.SearchTestUsingTestNG">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.tcs.tests.SearchTestUsingTestNG@1f7030a6]" name="setup" is-config="true" duration-ms="52023" started-at="2022-06-01T03:46:03 IST" finished-at="2022-06-01T03:46:55 IST">
+    <test name="testngdemoXml" duration-ms="80" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
+      <class name="com.tcs.tests.AnnotationsTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="beforeTest" is-config="true" duration-ms="2" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="a()[pri:0, instance:com.tcs.tests.SearchTestUsingTestNG@1f7030a6]" name="a" duration-ms="356" started-at="2022-06-01T03:46:55 IST" finished-at="2022-06-01T03:46:56 IST">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="beforeClass" is-config="true" duration-ms="1" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- a -->
-        <test-method status="PASS" signature="getMe()[pri:0, instance:com.tcs.tests.SearchTestUsingTestNG@1f7030a6]" name="getMe" is-config="true" duration-ms="2910" started-at="2022-06-01T03:46:56 IST" finished-at="2022-06-01T03:46:59 IST">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getMe -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.tcs.tests.SearchTestUsingTestNG@1f7030a6]" name="setup" is-config="true" duration-ms="17212" started-at="2022-06-01T03:46:59 IST" finished-at="2022-06-01T03:47:16 IST">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethod1()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="testMethod1" duration-ms="13" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="bb()[pri:0, instance:com.tcs.tests.SearchTestUsingTestNG@1f7030a6]" name="bb" duration-ms="24" started-at="2022-06-01T03:47:16 IST" finished-at="2022-06-01T03:47:16 IST">
+        </test-method> <!-- testMethod1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bb -->
-        <test-method status="PASS" signature="getMe()[pri:0, instance:com.tcs.tests.SearchTestUsingTestNG@1f7030a6]" name="getMe" is-config="true" duration-ms="2272" started-at="2022-06-01T03:47:16 IST" finished-at="2022-06-01T03:47:18 IST">
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getMe -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.tcs.tests.SearchTestUsingTestNG@1f7030a6]" name="setup" is-config="true" duration-ms="12447" started-at="2022-06-01T03:47:18 IST" finished-at="2022-06-01T03:47:31 IST">
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="afterTest" is-config="true" duration-ms="1" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testOne()[pri:0, instance:com.tcs.tests.SearchTestUsingTestNG@1f7030a6]" name="testOne" duration-ms="28" started-at="2022-06-01T03:47:31 IST" finished-at="2022-06-01T03:47:31 IST">
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.tcs.tests.AnnotationsTest -->
+    </test> <!-- testngdemoXml -->
+    <test name="tesetngdemoxml2" duration-ms="5" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
+      <class name="com.tcs.tests.AnnotationsTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="beforeSuite" is-config="true" duration-ms="22" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOne -->
-        <test-method status="PASS" signature="getMe()[pri:0, instance:com.tcs.tests.SearchTestUsingTestNG@1f7030a6]" name="getMe" is-config="true" duration-ms="750" started-at="2022-06-01T03:47:31 IST" finished-at="2022-06-01T03:47:32 IST">
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="afterSuite" is-config="true" duration-ms="1" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getMe -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.tcs.tests.SearchTestUsingTestNG@1f7030a6]" name="setup" is-config="true" duration-ms="14503" started-at="2022-06-01T03:47:32 IST" finished-at="2022-06-01T03:47:46 IST">
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.tcs.tests.AnnotationsTest -->
+      <class name="com.tcs.tests.AnnotationTest2">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.tcs.tests.AnnotationTest2@52feb982]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testTwo()[pri:0, instance:com.tcs.tests.SearchTestUsingTestNG@1f7030a6]" name="testTwo" duration-ms="55" started-at="2022-06-01T03:47:46 IST" finished-at="2022-06-01T03:47:46 IST">
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.tcs.tests.AnnotationTest2@52feb982]" name="beforeTest" is-config="true" duration-ms="3" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTwo -->
-        <test-method status="PASS" signature="getMe()[pri:0, instance:com.tcs.tests.SearchTestUsingTestNG@1f7030a6]" name="getMe" is-config="true" duration-ms="700" started-at="2022-06-01T03:47:46 IST" finished-at="2022-06-01T03:47:47 IST">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.tcs.tests.AnnotationTest2@52feb982]" name="afterTest" is-config="true" duration-ms="1" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getMe -->
-      </class> <!-- com.tcs.tests.SearchTestUsingTestNG -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.tcs.tests.AnnotationTest2@52feb982]" name="afterSuite" is-config="true" duration-ms="1" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.tcs.tests.AnnotationTest2 -->
+    </test> <!-- tesetngdemoxml2 -->
+  </suite> <!-- demoXmlfile1 -->
 </testng-results>
