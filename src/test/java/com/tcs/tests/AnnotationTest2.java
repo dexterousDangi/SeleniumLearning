@@ -12,13 +12,13 @@ import org.testng.annotations.AfterSuite;
 
 public class AnnotationTest2 {
 	@Test
-	public void TestMethod1() {
-		System.out.println("test method1");
+	public void testMethod1() {
+		System.out.println("Annotation test 2 test method1");
 	}
 
 	@Test
-	public void TestMethod2() {
-		System.out.println("test method2");
+	public void testMethod2() {
+		System.out.println(" Annotation test 2 test method2");
 	}
 
 	@BeforeMethod

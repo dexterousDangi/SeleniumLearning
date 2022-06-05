@@ -3,6 +3,7 @@
 
 <suite name="demoXmlfile1" verbose="1">
 	<test name="testngdemoXml">
+	<parameter name="browser" value="chrome" />	
 		<classes>
 			<class name="com.tcs.tests.AnnotationsTest">
 				<methods>
@@ -10,6 +11,7 @@
 				</methods>
 			</class>
 		</classes>
+		
 	</test>
 	<test name="tesetngdemoxml2">
 		<classes>

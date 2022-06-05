@@ -1,67 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="demoXmlfile1" duration-ms="154" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
+  <suite name="demoXmlfile1" duration-ms="159" started-at="2022-06-05T19:31:42 IST" finished-at="2022-06-05T19:31:43 IST">
     <groups>
     </groups>
-    <test name="testngdemoXml" duration-ms="80" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
+    <test name="testngdemoXml" duration-ms="72" started-at="2022-06-05T19:31:42 IST" finished-at="2022-06-05T19:31:42 IST">
       <class name="com.tcs.tests.AnnotationsTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="beforeTest" is-config="true" duration-ms="2" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="beforeTest" is-config="true" duration-ms="1" started-at="2022-06-05T19:31:42 IST" finished-at="2022-06-05T19:31:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="beforeClass" is-config="true" duration-ms="1" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="beforeClass" is-config="true" duration-ms="0" started-at="2022-06-05T19:31:42 IST" finished-at="2022-06-05T19:31:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-06-05T19:31:42 IST" finished-at="2022-06-05T19:31:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMethod1()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="testMethod1" duration-ms="13" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
+        <test-method status="PASS" signature="testMethod1()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="testMethod1" duration-ms="13" started-at="2022-06-05T19:31:42 IST" finished-at="2022-06-05T19:31:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod1 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-06-05T19:31:42 IST" finished-at="2022-06-05T19:31:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-06-05T19:31:42 IST" finished-at="2022-06-05T19:31:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="afterTest" is-config="true" duration-ms="1" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="afterTest" is-config="true" duration-ms="1" started-at="2022-06-05T19:31:42 IST" finished-at="2022-06-05T19:31:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.tcs.tests.AnnotationsTest -->
     </test> <!-- testngdemoXml -->
-    <test name="tesetngdemoxml2" duration-ms="5" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
+    <test name="tesetngdemoxml2" duration-ms="13" started-at="2022-06-05T19:31:43 IST" finished-at="2022-06-05T19:31:43 IST">
       <class name="com.tcs.tests.AnnotationsTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="beforeSuite" is-config="true" duration-ms="22" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="beforeSuite" is-config="true" duration-ms="28" started-at="2022-06-05T19:31:42 IST" finished-at="2022-06-05T19:31:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="afterSuite" is-config="true" duration-ms="1" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.tcs.tests.AnnotationsTest@1e965684]" name="afterSuite" is-config="true" duration-ms="1" started-at="2022-06-05T19:31:43 IST" finished-at="2022-06-05T19:31:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.tcs.tests.AnnotationsTest -->
       <class name="com.tcs.tests.AnnotationTest2">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.tcs.tests.AnnotationTest2@52feb982]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.tcs.tests.AnnotationTest2@52feb982]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2022-06-05T19:31:42 IST" finished-at="2022-06-05T19:31:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.tcs.tests.AnnotationTest2@52feb982]" name="beforeTest" is-config="true" duration-ms="3" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.tcs.tests.AnnotationTest2@52feb982]" name="beforeTest" is-config="true" duration-ms="0" started-at="2022-06-05T19:31:43 IST" finished-at="2022-06-05T19:31:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.tcs.tests.AnnotationTest2@52feb982]" name="afterTest" is-config="true" duration-ms="1" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.tcs.tests.AnnotationTest2@52feb982]" name="beforeClass" is-config="true" duration-ms="1" started-at="2022-06-05T19:31:43 IST" finished-at="2022-06-05T19:31:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testMethod2()[pri:0, instance:com.tcs.tests.AnnotationTest2@52feb982]" name="testMethod2" duration-ms="3" started-at="2022-06-05T19:31:43 IST" finished-at="2022-06-05T19:31:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.tcs.tests.AnnotationTest2@52feb982]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-06-05T19:31:43 IST" finished-at="2022-06-05T19:31:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.tcs.tests.AnnotationTest2@52feb982]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-06-05T19:31:43 IST" finished-at="2022-06-05T19:31:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.tcs.tests.AnnotationTest2@52feb982]" name="afterClass" is-config="true" duration-ms="1" started-at="2022-06-05T19:31:43 IST" finished-at="2022-06-05T19:31:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.tcs.tests.AnnotationTest2@52feb982]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-06-05T19:31:43 IST" finished-at="2022-06-05T19:31:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.tcs.tests.AnnotationTest2@52feb982]" name="afterSuite" is-config="true" duration-ms="1" started-at="2022-06-03T01:19:02 IST" finished-at="2022-06-03T01:19:02 IST">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.tcs.tests.AnnotationTest2@52feb982]" name="afterSuite" is-config="true" duration-ms="0" started-at="2022-06-05T19:31:43 IST" finished-at="2022-06-05T19:31:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
